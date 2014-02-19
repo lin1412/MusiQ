@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MusiQActivity!</string>
+    <string name="app_name">MusiQ</string>
+    <string name="skip">Skip</string>
+    <string name="add">Add To Queue</string>
+    <string name="playPause">Play / Pause</string>
+    <string name="blank">  </string>
+</resources>

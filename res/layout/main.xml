@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1">
+        <TextView android:layout_width="match_parent" android:id="@+id/queue" android:layout_height="367dp" android:text="Please select songs to place into the queue." android:textSize="14px"></TextView>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:text="Now Playing:" android:id="@+id/nowPlayingLabel"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/nowPlaying" android:textSize="16px"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+        <Button android:onClick="onSkipButtonClick" android:layout_height="wrap_content" android:id="@+id/skipButton" android:layout_width="wrap_content" android:text="@string/skip"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/add" android:id="@+id/addButton" android:onClick="onAddButtonClick"></Button>
+        <Button android:onClick="onPlayPauseButtonClick" android:layout_height="wrap_content" android:id="@+id/playPauseButton" android:layout_width="wrap_content" android:text="@string/playPause"></Button>
+    </LinearLayout>
+</LinearLayout>
